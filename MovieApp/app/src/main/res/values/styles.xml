@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Design.CoordinatorLayout</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="Theme.AppCompat.Light" />
+
+
+    <!--Button-->
+    <style name="Button" parent="Base.Widget.AppCompat.ActionButton">
+        <item name="android:minHeight">@dimen/dp_35</item>
+        <item name="android:paddingBottom">@dimen/dp_0</item>
+        <item name="android:paddingTop">@dimen/dp_0</item>
+        <item name="android:paddingLeft">@dimen/dp_16</item>
+        <item name="android:paddingRight">@dimen/dp_16</item>
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+
+    <style name="Button.LightSlateBlue" parent="Button">
+        <item name="colorButtonNormal">@color/color_Light_Slate_Blue</item>
+    </style>
+    <style name="Button.SlateBlue" parent="Button">
+        <item name="colorButtonNormal">@color/color_Slate_Blue</item>
+    </style>
+    <style name="Button.Black" parent="Button">
+        <item name="colorButtonNormal">@color/color_black</item>
+    </style>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/button_favorite"
+          android:layout_marginTop="@dimen/dp_16"
+          android:text="@string/add_to_favorites"
+          android:visibility="visible"
+          android:theme="@style/Button.LightSlateBlue"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_remove_favorites"
+        android:layout_marginTop="@dimen/dp_16"
+        android:text="@string/remove_from_favorites"
+        android:visibility="gone"
+        android:theme="@style/Button.SlateBlue"/>
+</LinearLayout>

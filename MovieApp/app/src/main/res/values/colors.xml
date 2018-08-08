@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fe485a</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_matterhorn">#4c4c4c</color>
+    <color name="color_white">#FFF</color>
+    <color name="color_yellow">#FFFF33</color>
+    <color name="color_pink">#fe485a</color>
+    <color name="color_alice_blue">#f1f5f7</color>
+    <color name="color_Light_Slate_Blue">#8470FF</color>
+    <color name="color_Slate_Blue">#6A5ACD</color>
+    <color name="color_Light_Goldenrod">#8B814C</color>
+    <color name="color_black">#000000</color>
+</resources>
